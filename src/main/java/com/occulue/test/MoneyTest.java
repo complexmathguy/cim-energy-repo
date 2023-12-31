@@ -293,7 +293,7 @@ public class MoneyTest {
    */
   protected UpdateMoneyCommand generateUpdateCommand() {
     UpdateMoneyCommand command =
-        new UpdateMoneyCommand(null, UnitMultiplier.values()[0], Currency.values()[0], null);
+        new UpdateMoneyCommand(null, UnitMultiplier.values()[0], com.occulue.api.Currency.values()[0], null);
 
     return (command);
   }
