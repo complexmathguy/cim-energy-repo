@@ -127,7 +127,7 @@ public class MoneyAggregate {
   @AggregateIdentifier private UUID moneyId;
 
   private UnitMultiplier multiplier;
-  private Currency unit;
+  private com.occulue.api.Currency unit;
   private DecimalProxy value = null;
   private GeneratingUnit startupCost = null;
   private GeneratingUnit variableCost = null;
