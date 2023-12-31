@@ -281,7 +281,7 @@ public class MoneyTest {
    */
   protected CreateMoneyCommand generateNewCommand() {
     CreateMoneyCommand command =
-        new CreateMoneyCommand(null, UnitMultiplier.values()[0], Currency.values()[0]);
+        new CreateMoneyCommand(null, UnitMultiplier.values()[0], com.occulue.api.Currency.values()[0]);
 
     return (command);
   }
